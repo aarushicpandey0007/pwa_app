@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeView from '../../view/HomeView'
+import HomeView from '../../views/HomeView'
 
 function HomeContainer() {
     return (

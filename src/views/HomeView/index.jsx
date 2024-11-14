@@ -26,7 +26,7 @@ function HomeView() {
       </div>
       <Carousel/>
       <div>
-        <Button text="Start Game" className="mx-5 text-[2rem] font-[600] leading-[2.5rem]"/>
+        <Button text="Start Game" LinkPath="/questionsPage" className="mx-5 text-[2rem] font-[600] leading-[2.5rem]"/>
       </div>
       <div className="z-10">
         <Design/>

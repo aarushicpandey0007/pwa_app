@@ -10,18 +10,21 @@ function Carousel() {
           head="FIB"
           heading="FIB"
           paragraph="Test your knowledge with engaging MCQs! Choose the correct answer from multiple options"
+          LinkPath='/questionsPage'
         />,
         <Card
           className="bg-[#EB4C37] text-white rounded-[3.563rem] mx-10"
           head="MCQ"
           heading="MCQ"
           paragraph="Test your knowledge with engaging MCQs! Choose the correct answer from multiple options"
+          LinkPath='/questionsPage'
         />,
         <Card
           className="bg-[#FFCC3E] text-white rounded-[3.563rem] mx-10"
           head="T/F"
           heading="True/False"
           paragraph="Test your knowledge with engaging MCQs! Choose the correct answer from multiple options"
+          LinkPath='/questionsPage'
         />,
       ];    
     return (

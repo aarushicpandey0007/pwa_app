@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Card({
     head= "button-head",
@@ -6,10 +7,12 @@ function Card({
     paragraph= "Default Paragraph Text",
     children= "children",
     className="",
+    LinkPath="/",
     ...props
 }) {
     return (
         <div>
+            <Link to={LinkPath}>
             <div className={`h-[26.375rem] w-[21.875rem] ${className}`} {...props}>
                 <div className='p-5 pt-[1.563rem]'>
                 <div className='flex justify-between'>
@@ -29,6 +32,7 @@ function Card({
                         <img src="/images/list.png" alt="list" className='h-[9.875rem] w-[16.875rem] -mt-14' />
                     </div>
             </div>
+            </Link>
         </div>
     )
 }
