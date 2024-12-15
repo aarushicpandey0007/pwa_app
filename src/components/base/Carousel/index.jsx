@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import CongratulationContainer from "../../containers/CongatulationContainer/CongratulationContainer";
-import QuizContainer from "../../containers/QuestionContainer/QuestionConatiner";
+import CongratulationContainer from "../../../containers/CongatulationContainer";
+import QuizContainer from "../../../containers/QuestionContainer";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,9 +34,11 @@ const Carousel = () => {
   }
 
   return (
+    <>
     <div className="relative w-full mx-auto overflow-hidden">
       {/* Current Component */}
       <div className="w-full transition-transform duration-500 ease-out">
+       
         {components[currentIndex].component}
       </div>
 
@@ -105,6 +107,7 @@ const Carousel = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

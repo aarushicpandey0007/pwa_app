@@ -2,12 +2,13 @@ import React from "react";
 import PwaHeader from "../../components/base/PwaHeader";
 import ScoreCard from "../../components/base/ScoreCard";
 import SubmitButton from "../../components/base/SubmitButton";
-import BackgroundSquares from "../../components/base/BackgroundSquare";
+import BackgroundSquares from "../../components/base/BackgroundSquares";
+import Design from "../../components/base/design";
 
 const CongratulationView = () => {
   return (
     <>
-      <BackgroundSquares />
+      <Design />
       <div className="bg-[#eee7de] h-screen w-full overflow-hidden">
         <div className="p-4">
           <PwaHeader />

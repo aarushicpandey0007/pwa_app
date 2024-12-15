@@ -1,5 +1,5 @@
 import React from 'react'
-import Trophy from "../../assets/trophy2.png"
+import Trophy from "../../../assets/trophy2.png"
 
 const PwaHeader = () => {
   return (

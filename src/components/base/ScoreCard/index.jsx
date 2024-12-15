@@ -1,8 +1,8 @@
 import React from "react";
-import Trophy from "../../assets/trophy.png";
+import Trophy from "../../../assets/trophy.png";
 import { CircleCheck } from "lucide-react";
 import { CircleX } from "lucide-react";
-import Question from "../../assets/question.png";
+import Question from "../../../assets/question.png";
 
 const ScoreCard = () => {
   return (

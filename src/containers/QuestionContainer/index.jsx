@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import QuizView from "../../views/QuizView/QuizView.jsx";
+import QuizView from "../../views/QuizView/index.jsx";
 
 const QuizContainer = () => {
   const [selectedOption, setSelectedOption] = useState("");

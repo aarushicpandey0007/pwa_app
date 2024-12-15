@@ -1,13 +1,11 @@
-import QuestionBox from '../base/QuestionBox'
-import Tags from '../base/Tags'
-import Timer from '../base/Timer'
+import QuestionBox from '../../base/QuestionBox'
+import Timer from '../../base/Timer'
 
 const QuizQuestion = () => {
   return (
     <div>
     <QuestionBox/>
     <Timer/>
-    <Tags/>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import CongratulationView from "../../views/CongratulationView/CongratulationView"
+import CongratulationView from "../../views/CongratulationView"
 
 const CongratulationContainer = () => {
   return (
